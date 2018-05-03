@@ -38,6 +38,16 @@ public class Main {
         //and change the password itself
         //so let's make a new class ExtendedPassword
 
+        System.out.println("=========================================");
+
+        //step 14 instances
+        int pw1 = 6743312;
+        Password password1 = new ExtendedPassword(pw1);
+        password.storePassword();
+        //then run
+        //same result;
+        //Saving password as 754498426
+
     }
 
 }
